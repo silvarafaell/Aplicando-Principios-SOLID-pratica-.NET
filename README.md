@@ -10,3 +10,6 @@
     - Herança - Permite herdar atributos e comportamentos de uma classe
     - Polimorfismo - Permite que um objeto se comporte de formas diferentes
     - Abstração - É o processo de identificação dos objetos e seus relacionamentos.
+- Classes e Objetos
+  - uma classe é um modelo ou template para criar objetos e contem os atributos e comportamentos que definem os objetos.
+  - Os objetos não existem sem a classe.
