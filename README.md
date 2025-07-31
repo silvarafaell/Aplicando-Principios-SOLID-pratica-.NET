@@ -1,6 +1,6 @@
-### Curso C# - Aplicando Princípios SOLID na prática na Udemy 
+#Curso C# - Aplicando Princípios SOLID na prática na Udemy 
 
-# Fundamentos da programação Orientada a Objetos
+### Fundamentos da programação Orientada a Objetos
 - O paradigma da programação orientada a objetos
   - A programação orientada a objetos é uma abordagem de projeto em que pensamos em termos de objetos do mundo real, em vez de funções ou métodos.
   - Na POO os programas são organizados em torno de objetos e dados, em de ações e procedimentos.
