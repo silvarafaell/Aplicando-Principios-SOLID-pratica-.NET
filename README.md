@@ -13,3 +13,7 @@
 - Classes e Objetos
   - uma classe é um modelo ou template para criar objetos e contem os atributos e comportamentos que definem os objetos.
   - Os objetos não existem sem a classe.
+- Construtor
+  - Um construtor é um método especial usado para inicializar objetos
+  - É chamado quando um objeto de uma classe é criado usando a palavra-chave new
+  - pode ser usado para definir valores iniciais para os atributos de um objeto.
