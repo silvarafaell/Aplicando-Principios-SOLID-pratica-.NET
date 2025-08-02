@@ -40,3 +40,25 @@
     - É conhecido como ocultação de informação ou information hiding.
     - Beneficios ?
       - Fornece uma maneira de preservar a integridade do estado dos dados.
+- Encapsulamento e Modelo de Domínio
+  - Encapsular é ocultar os detalhes da implementação de um objeto de forma manter o seu estado consistente.
+  - O modelo de domínio é uma representação de classes conceituais a partir do mundo real
+  - Modelo de domínio anêmico
+    - É um modelo sem logica, definido apenas com propriedades com get e set públicos
+    - Desvantagens
+      - Violação do encapsulamento
+      - Dificuldade na manutenção
+      - Logica de negócios duplicada
+      - Estado inconsistente
+      - Baixa coesão
+  - Modelo de domínio rico(usamos o encapsulamento para evitar que valores inválidos sejam atribuídos as propriedades do domínio)
+- Métodos e Sobrecarga de métodos
+  - Um método é um bloco de código que contem uma série de instruções.
+  - Um programa faz com que as instruções sejam executadas chamando o método e especificando os argumentos de método necessários.
+  - O método Main é o ponto de entrada para cada aplicação C# e é chamado pelo o runtime do Commom Language Runtime(CLR)
+  - Assinatura do método
+    - Permite identificar um método de forma única
+    - Nivel de acesso
+    - Nome do método
+    - Número e Tipo de Parâmetros
+  - Sobrecarga acontece quando temos métodos com mesmos nomes mas com assinatura diferentes. 
