@@ -17,3 +17,6 @@
   - Um construtor é um método especial usado para inicializar objetos
   - É chamado quando um objeto de uma classe é criado usando a palavra-chave new
   - pode ser usado para definir valores iniciais para os atributos de um objeto.
+- A palavra this
+  - Refere-se a instancia atual da classe
+  - É usada como um modificador do primeiro parâmetro de um método de extensão.
