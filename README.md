@@ -40,3 +40,15 @@
     - É conhecido como ocultação de informação ou information hiding.
     - Beneficios ?
       - Fornece uma maneira de preservar a integridade do estado dos dados.
+- Encapsulamento e Modelo de Domínio
+  - Encapsular é ocultar os detalhes da implementação de um objeto de forma manter o seu estado consistente.
+  - O modelo de domínio é uma representação de classes conceituais a partir do mundo real
+  - Modelo de domínio anêmico
+    - É um modelo sem logica, definido apenas com propriedades com get e set públicos
+    - Desvantagens
+      - Violação do encapsulamento
+      - Dificuldade na manutenção
+      - Logica de negócios duplicada
+      - Estado inconsistente
+      - Baixa coesão
+  - Modelo de domínio rico(usamos o encapsulamento para evitar que valores inválidos sejam atribuídos as propriedades do domínio)
