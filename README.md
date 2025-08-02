@@ -61,4 +61,7 @@
     - Nivel de acesso
     - Nome do método
     - Número e Tipo de Parâmetros
-  - Sobrecarga acontece quando temos métodos com mesmos nomes mas com assinatura diferentes. 
+  - Sobrecarga acontece quando temos métodos com mesmos nomes mas com assinatura diferentes.
+- Métodos: Parâmetros Opcionais
+  -  Na linguagem C# os métodos podem conter parâmetros obrigatórios e também parâmetros opcionais.
+  -  Devem possuir um valor padrão constante. 
