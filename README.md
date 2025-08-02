@@ -34,3 +34,9 @@
     - Acesso limitado ao assembly atual e aos tipos derivados da classe que o contem.
   - private protected
     - O acesso é limitado a classe que o contem ou a tipos derivados da classe que o contem no assembly atual
+- Propriedades e Encapsulamento
+  - o que é encapsulamento ?
+    - É o processo de ocultar ou esconder os membros de uma classe do acesso exterior usando modificadores de acesso.
+    - É conhecido como ocultação de informação ou information hiding.
+    - Beneficios ?
+      - Fornece uma maneira de preservar a integridade do estado dos dados.
