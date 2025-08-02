@@ -20,3 +20,17 @@
 - A palavra this
   - Refere-se a instancia atual da classe
   - É usada como um modificador do primeiro parâmetro de um método de extensão.
+- Modificadores de Acesso
+  - É usado para definir o nível de acesso/a visibilidade para classes, campos, métodos e propriedades.
+  - public
+    - Não existe restrição de acesso
+  - private
+    - Acesso limitado a membros da mesma classe(Padrão)
+  - protected
+    - Acesso limitado a membros da mesma classe e das classes que herdeiras
+  - internal
+    - Acesso limitado a classes definidas dentro do assembly do projeto atual
+  - protected internal
+    - Acesso limitado ao assembly atual e aos tipos derivados da classe que o contem.
+  - private protected
+    - O acesso é limitado a classe que o contem ou a tipos derivados da classe que o contem no assembly atual
