@@ -88,8 +88,8 @@
   - Os identificadores devem começar com uma letra ou sublinhado
   - Os números são permitidos nos identificadores apenas apos o primeiro caractere.
   - Classes, métodos, construtores, propriedades, tipos e namespaces.
-   - Usar **PascalCasing**: Coloca em maiúsculo o primeiro caractere de cada palavra.
-   - ex: TaxaAmortizacao, CalculoImpostoPessoaFisica
+    - Usar **PascalCasing**: Coloca em maiúsculo o primeiro caractere de cada palavra.
+    - ex: TaxaAmortizacao, CalculoImpostoPessoaFisica
   - Parâmetros e variáveis locais
     - Usar **CamelCasing**: Coloca em maiúscula o primeiro caractere de cada palavra, exceto da primeira palavra.
     - ex: valorTotal, dataPedidoIsentoImpostoICMS
