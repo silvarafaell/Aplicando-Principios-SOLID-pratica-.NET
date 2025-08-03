@@ -66,4 +66,14 @@
   -  Na linguagem C# os métodos podem conter parâmetros obrigatórios e também parâmetros opcionais.
   -  Devem possuir um valor padrão constante. 
 - Métodos: Argumentos Nomeados
-  - Por padrão a chamada de um método requer que passemos os argumentos respeitando o posicionamento dos parâmetros na lista de parâmetros definidos no método. 
+  - Por padrão a chamada de um método requer que passemos os argumentos respeitando o posicionamento dos parâmetros na lista de parâmetros definidos no método.
+- Métodos Estáticos
+  - Uma classe é um modelo ou gabarito para definição de objetos.
+  - Um objeto não existe sem a definição de uma classe.
+  - Criar um objeto de uma classe significa criar uma instancia da classe.
+  - A linguagem C# palavra-chave static pode ser aplicada a classes, variáveis, métodos, eventos, construtores
+  - O modificador static torna um item não instanciável
+  - Se o modificador static for aplicado a uma variável, método ou propriedade da classe, eles poderão ser acessados sem a criação de um objeto da classe.
+  - Membros declarados como static são membros da classe e não membros de instancia
+  - Podemos acessar membros declarados como static em uma classe sem criar uma instancia da classe.
+  - Use métodos e membros estáticos com ponderação
