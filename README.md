@@ -77,3 +77,25 @@
   - Membros declarados como static são membros da classe e não membros de instancia
   - Podemos acessar membros declarados como static em uma classe sem criar uma instancia da classe.
   - Use métodos e membros estáticos com ponderação
+- Métodos de Extensão
+  - Permitem que voce adicione uma nova funcionalidade a um tipo existente sem ter que criar um novo tipo derivado, dessa forma a funcionalidade se comporta como um outro membro do tipo.
+  - Podemos criar um novo método em um tipo que pode ser chamado como se ele fosse um método de instancia deste tipo
+  - Essa é uma forma de aplicar o princípio aberto/fechado(OCP) que diz, voce deve ser capaz de estender um comportamento de uma classe, sem modificá-la.
+  - São definidos como estáticos, mas são chamados usando a sintaxe do método de instancia.
+  - Seu primeiro parâmetro especifica em que tipo o método opera e o parâmetro é precedido pelo o modificador this.
+- Nomenclatura
+  - Um identificador é o nome que voce atribui a classes, métodos, interfaces, structs,delegates,enumerações, membros de classe, variáveis e namespaces.
+  - Os identificadores devem começar com uma letra ou sublinhado
+  - Os números são permitidos nos identificadores apenas apos o primeiro caractere.
+  - Classes, métodos, construtores, propriedades, tipos e namespaces.
+    - Usar **PascalCasing**: Coloca em maiúsculo o primeiro caractere de cada palavra.
+    - ex: TaxaAmortizacao, CalculoImpostoPessoaFisica
+  - Parâmetros e variáveis locais
+    - Usar **CamelCasing**: Coloca em maiúscula o primeiro caractere de cada palavra, exceto da primeira palavra.
+    - ex: valorTotal, dataPedidoIsentoImpostoICMS
+  - Nomenclatura - Convenções
+    - Escolha nome de identificadores legíveis
+    - Favoreça a legibilidade a brevidade
+    - Não use abreviações ou contrações como parte dos nomes de identificador
+      - Errado: valSalSem, descImp, NumDepen, Calcdesc
+      - Correto: valorSalarioSemanal, descontoImposto, NumeroDependentes, CalcularDesconto
