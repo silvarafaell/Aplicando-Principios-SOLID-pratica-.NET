@@ -77,3 +77,9 @@
   - Membros declarados como static são membros da classe e não membros de instancia
   - Podemos acessar membros declarados como static em uma classe sem criar uma instancia da classe.
   - Use métodos e membros estáticos com ponderação
+- Métodos de Extensão
+  - Permitem que voce adicione uma nova funcionalidade a um tipo existente sem ter que criar um novo tipo derivado, dessa forma a funcionalidade se comporta como um outro membro do tipo.
+  - Podemos criar um novo método em um tipo que pode ser chamado como se ele fosse um método de instancia deste tipo
+  - Essa é uma forma de aplicar o princípio aberto/fechado(OCP) que diz, voce deve ser capaz de estender um comportamento de uma classe, sem modificá-la.
+  - São definidos como estáticos, mas são chamados usando a sintaxe do método de instancia.
+  - Seu primeiro parâmetro especifica em que tipo o método opera e o parâmetro é precedido pelo o modificador this.
