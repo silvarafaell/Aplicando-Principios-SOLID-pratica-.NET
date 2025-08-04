@@ -99,3 +99,20 @@
     - Não use abreviações ou contrações como parte dos nomes de identificador
       - Errado: valSalSem, descImp, NumDepen, Calcdesc
       - Correto: valorSalarioSemanal, descontoImposto, NumeroDependentes, CalcularDesconto
+  - Modelo de domínio Anêmico(Anemic Domain Model)
+    - É um modelo de domínio em que os objetos de domínio contem pouca ou nenhuma logica negócios(validações, cálculos, regras de negócios e etc) sendo representados apenas         como uma estrutura de dados sem comportamento.
+    - É considerado um anti-pattern ou anti-padrão devido a uma completa falta de princípios aderentes a orientações a objetos, visto que eles são objetos burros que                dependem do código de chamada para validação e outras lógicas de negócios.
+    - Como consequência, isso pode levar a repetição de código, a uma integridade de dados ruim e a uma maior complexidade que deve ser definida nas camadas superiores.
+    - Martin Fowler Anti pattern
+    - Exemplo de modelo de domínio anêmico
+      - Somente dados
+      - Sem comportamentos
+      - Sem validações
+      - Sem logica
+      - Sem regras de negocio nem cálculos
+    - O modelo anêmico despeita os conceitos do paradigma da POO - Programação orientada a objetos
+    - Os objetos no paradigma possuem dados e comportamento, e, o objeto deve modelar a entidade
+    - Ao separar o comportamento, não estamos seguindo o paradigma da POO, com comportamentos residindo em uma classe separada, será difícil herdar, aplicar polimorfismo,          abstração e assim por diante.
+    - Além disso modelos anêmicos podem ter estados inconsistentes a qualquer momento.
+    - Opções justificáveis para usar modelo anêmico seria usar para DTOs - Data Transfer Objects, e fazer um CRUD(Create, Read,Update e Delete) Basico.
+  
