@@ -115,4 +115,11 @@
     - Ao separar o comportamento, não estamos seguindo o paradigma da POO, com comportamentos residindo em uma classe separada, será difícil herdar, aplicar polimorfismo,          abstração e assim por diante.
     - Além disso modelos anêmicos podem ter estados inconsistentes a qualquer momento.
     - Opções justificáveis para usar modelo anêmico seria usar para DTOs - Data Transfer Objects, e fazer um CRUD(Create, Read,Update e Delete) Basico.
+ - Herança: Conceitos básicos
+   - O que é herança ?
+     - Na linguagem C#, é possível herdar membros (campos, propriedades e métodos) de uma classe para outra
+     - Herança é a capacidade de criar uma classe base com membros(campos, propriedades e métodos) que podem ser usados em classes derivadas da classe base
+     - Classe derivada(filha ou subclasse - a classe que herda de outra classe;
+     - Classe base (pai ou superclasse) - a classe que está sendo herdada;
+     - Um dos principais benefícios da herança é o reaproveitamento de código. 
   
