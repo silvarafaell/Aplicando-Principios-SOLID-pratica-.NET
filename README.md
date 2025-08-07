@@ -121,5 +121,9 @@
      - Herança é a capacidade de criar uma classe base com membros(campos, propriedades e métodos) que podem ser usados em classes derivadas da classe base
      - Classe derivada(filha ou subclasse - a classe que herda de outra classe;
      - Classe base (pai ou superclasse) - a classe que está sendo herdada;
-     - Um dos principais benefícios da herança é o reaproveitamento de código. 
+     - Um dos principais benefícios da herança é o reaproveitamento de código.
+- Herança: Comportamentos e considerações
+  - Todos os membros públicos(campos, propriedades, métodos) são herdados. (membros privados não são herdados).
+  -  O modificador de acesso protected torna um membro de uma classe base somente acessível as suas classes derivadas.
+  -  Toda a classe herda de Object(ela é a classe pai de todas as classes).
   
