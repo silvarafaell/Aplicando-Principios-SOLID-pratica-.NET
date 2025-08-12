@@ -126,4 +126,6 @@
   - Todos os membros públicos(campos, propriedades, métodos) são herdados. (membros privados não são herdados).
   -  O modificador de acesso protected torna um membro de uma classe base somente acessível as suas classes derivadas.
   -  Toda a classe herda de Object(ela é a classe pai de todas as classes).
-  
+- Herança: Construtores
+  - O Construtor da classe base sempre será executado primeiro durante a instanciação da classe filha.
+  - O Construtor da classe base não é herdado pela classe filha e por isso precisa ter seu proprio construtor definido. 
