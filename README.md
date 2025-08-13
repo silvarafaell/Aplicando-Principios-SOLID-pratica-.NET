@@ -128,4 +128,9 @@
   -  Toda a classe herda de Object(ela é a classe pai de todas as classes).
 - Herança: Construtores
   - O Construtor da classe base sempre será executado primeiro durante a instanciação da classe filha.
-  - O Construtor da classe base não é herdado pela classe filha e por isso precisa ter seu proprio construtor definido. 
+  - O Construtor da classe base não é herdado pela classe filha e por isso precisa ter seu proprio construtor definido.
+- Herança: DownCasting e UpCasting
+  - Herança: UpCasting
+    - A operação de UpCasting converte um objeto de um tipo especializado (Classe filha) para um tipo mais geral (classe base)
+  - Herança: DownCasting
+    - A operação de DownCasting converte um objeto de um tipo geral(classe base) para um tipo mais especializado(classe filha)
