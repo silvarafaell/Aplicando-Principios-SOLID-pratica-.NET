@@ -134,3 +134,7 @@
     - A operação de UpCasting converte um objeto de um tipo especializado (Classe filha) para um tipo mais geral (classe base)
   - Herança: DownCasting
     - A operação de DownCasting converte um objeto de um tipo geral(classe base) para um tipo mais especializado(classe filha)
+- Os Operadores: is e as
+  - O operador as é usado para executar a conversão entre tipos de referencia compatíveis
+  - Retorna o objeto quando eles são compatíveis com o tipo especificado ou retorna null se a conversão não for possível em vez de gerar uma exceção
+  - O operador is é usado para verificar se o tipo de um objeto é compatível com o tipo especificado ou não
