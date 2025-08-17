@@ -147,3 +147,5 @@
     - Nome da classe
     - Atributos da classe
     - Métodos da classe
+- UML - Herança
+  - A herança é um tipo de relacionamento "é um" ou "is a" entre uma classe base e uma ou mais classes derivadas, em que as classes derivadas são versões especializadas da      classe base
