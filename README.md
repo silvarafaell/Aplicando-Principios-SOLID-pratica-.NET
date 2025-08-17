@@ -138,3 +138,12 @@
   - O operador as é usado para executar a conversão entre tipos de referencia compatíveis
   - Retorna o objeto quando eles são compatíveis com o tipo especificado ou retorna null se a conversão não for possível em vez de gerar uma exceção
   - O operador is é usado para verificar se o tipo de um objeto é compatível com o tipo especificado ou não
+
+### UML, Herança, Interface e Polimorfismo
+- Diagrama de Classes
+  - UML - Unified Modeling Language
+  - A UML é uma linguagem de modelagem designada para especificar, visualizar, construir e documentar um sistema.
+  - Na UML a representação de uma classe usa um retângulo dividido em três partes:
+    - Nome da classe
+    - Atributos da classe
+    - Métodos da classe
