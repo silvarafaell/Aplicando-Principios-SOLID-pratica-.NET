@@ -149,3 +149,6 @@
     - Métodos da classe
 - UML - Herança
   - A herança é um tipo de relacionamento "é um" ou "is a" entre uma classe base e uma ou mais classes derivadas, em que as classes derivadas são versões especializadas da      classe base
+- UML - Composição
+  - Um relacionamento de composição ocorre quando um objeto de uma classe é composto de um ou mais objetos de outra classe.
+  - A composição é um relacionamento do tipo: "Tem um"
