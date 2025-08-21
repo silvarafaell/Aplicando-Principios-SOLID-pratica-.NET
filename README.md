@@ -152,3 +152,9 @@
 - UML - Composição
   - Um relacionamento de composição ocorre quando um objeto de uma classe é composto de um ou mais objetos de outra classe.
   - A composição é um relacionamento do tipo: "Tem um"
+- UML - Agregação
+  - Um relacionamento de agregação é um tipo especial de composição onde objetos de uma classe podem conter um ou mais objetos de outra classe.
+  - A agregação é representada por uma seta com um triangulo(diamante) vazio.
+  - A agregação é um relacionamento do tipo: "Tem um"
+  - A parte e o todo são independentes
+  - A parte pode existir sem o todo
