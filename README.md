@@ -158,3 +158,24 @@
   - A agregação é um relacionamento do tipo: "Tem um"
   - A parte e o todo são independentes
   - A parte pode existir sem o todo
+- Acoplamento: Conceito
+  - Acoplamento
+    - É a medida de quão interconectados estão os componentes de um sistema.
+    - É o nível de dependência e de conhecimento que pode existir entre os componentes de um sistema.
+    - Existem dois tipos de acoplamento:
+      - Acoplamento forte
+      - Acoplamento fraco
+    - Acoplamento forte
+      - No acoplamento forte os componentes são interconectados de uma forma tão dependente que é praticamente impossível alterar um deles sem causar efeitos colaterais em           todo ou em grande parte do sistema
+      - No acoplamento forte as classes e os objetos são dependentes um do outro, portanto, reduzem a reutilização do código.
+      - Uma classe com acoplamento forte depende de muitas classes para fazer o seu serviço.
+    - Acoplamento fraco
+      - No acoplamento fraco os componentes de um sistema são interconectados de modo que um dependa do outro o mínimo possível
+      - Uma classe com acoplamento fraco não é dependente de muitas classes para fazer o que ele tem que fazer.
+      - Uma classe com acoplamento fraco é mais fácil de manter, de entender e de ser reusada.
+      - Vantagens do acoplamento fraco
+        - O acoplamento fraco é preferido ao forte, uma vez que alterar uma classe não afetará outra.
+        - Reduz dependências em uma classe e isso facilita a reutilização de código.
+        - Um modulo não quebra outros módulos
+        - Melhora a testabilidade do sistema
+        - O código é mais fácil de manter
