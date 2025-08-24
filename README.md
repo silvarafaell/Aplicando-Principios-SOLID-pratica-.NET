@@ -210,3 +210,9 @@
         - Permitem criar sistemas fracamente acoplados e mais flexível e mais flexível a mudanças( ou resiliente a mudanças)
         - Programar para interface deixa o código mais flexível, permitindo trocar a implementação de um componente em tempo de execução.
         - O código gerado é mais limpo e fácil de manter e entender pois existem uma separação de responsabilidade entre os componentes do sistema.
+      - Interfaces: Desacoplando o código: Conceito
+        - Usar interfaces para desacoplar o código (baixo acoplamento)
+        - tornar o código mais fácil para testar
+        - Tornar o código mais fácil de manter
+        - Tornar o código mais fácil de estender
+        - Programe para interface e não para uma implementação
