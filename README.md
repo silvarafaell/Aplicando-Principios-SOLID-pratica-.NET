@@ -179,3 +179,9 @@
         - Um modulo não quebra outros módulos
         - Melhora a testabilidade do sistema
         - O código é mais fácil de manter
+    - Classes Abstratas
+      - Uma classe abstrata é um tipo especial de classe que não pode ser instanciada ou seja voce não pode criar um objeto a partir de uma classe abstrata.
+      - É definida usando o modificador abstract e pode conter métodos comuns e métodos abstratos que também são definidos pelo o modificador abstract.
+      - Um método abstrato é um método que não possui implementação na classe abstrata.
+      - Um método abstrato possui somente a definição de sua assinatura
+      - A sua implementação deve ser feita na classe derivada
