@@ -185,3 +185,8 @@
       - Um método abstrato é um método que não possui implementação na classe abstrata.
       - Um método abstrato possui somente a definição de sua assinatura
       - A sua implementação deve ser feita na classe derivada
+    - O modificador sealed
+      - Uma classe selada utiliza o modificador sealed e impede que outras classes herdem deste classe.(não pode atuar como uma classe base)
+      - São usadas para restringir o recurso de herança
+      - Elas podem ser consideradas o oposto das classes abstratas
+      - Podem ser instanciadas e usadas normalmente. 
