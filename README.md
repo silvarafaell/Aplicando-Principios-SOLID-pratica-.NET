@@ -189,4 +189,17 @@
       - Uma classe selada utiliza o modificador sealed e impede que outras classes herdem deste classe.(não pode atuar como uma classe base)
       - São usadas para restringir o recurso de herança
       - Elas podem ser consideradas o oposto das classes abstratas
-      - Podem ser instanciadas e usadas normalmente. 
+      - Podem ser instanciadas e usadas normalmente.
+    - Interfaces
+      - Uma interface é um tipo de classes que **contem apenas as assinaturas de métodos, propriedades, eventos e indexadores**, e todos os membros de uma interface     são          **públicos e abstratos.**
+      - Uma interface funciona como **um contrato** entre si e qualquer classe que a implementa.
+      - Uma classe que herda uma interface é obrigada a implementar todos os seus membros.
+      - Assim, uma interface **não contem uma implementação**, contem apenas definições dee métodos, propriedades, eventos e indexadores que expõe funcionalidades que **uma         classe que quiser usar** terá que implementar.
+      - Interface
+        - Não contem implementação
+        - Não contem membros privados
+        - Os membros são todos públicos ou abstratos
+        - Não pode ser instanciada
+        - Não contem um construtor
+        - **As classes que herdam a interface devem implementar os métodos.**
+        - Uma classe pode implementar mais de uma interface.
