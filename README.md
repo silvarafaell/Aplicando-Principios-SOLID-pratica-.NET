@@ -203,3 +203,16 @@
         - Não contem um construtor
         - **As classes que herdam a interface devem implementar os métodos.**
         - Uma classe pode implementar mais de uma interface.
+      - Interface: Vantagens
+        - Da mesma maneira que podemos fazer referencia a um objeto usando uma variável de classe, podemos definir um objeto usando uma variável de interface
+        - Um dos pilares da programação orientada a objetos diz: "Programe para uma interface e não para uma implementação".(Erick Gomma)
+        - Usar interface é uma forma de criar e definir um contrato que ajuda na organização do código.
+        - Permitem criar sistemas fracamente acoplados e mais flexível e mais flexível a mudanças( ou resiliente a mudanças)
+        - Programar para interface deixa o código mais flexível, permitindo trocar a implementação de um componente em tempo de execução.
+        - O código gerado é mais limpo e fácil de manter e entender pois existem uma separação de responsabilidade entre os componentes do sistema.
+      - Interfaces: Desacoplando o código: Conceito
+        - Usar interfaces para desacoplar o código (baixo acoplamento)
+        - tornar o código mais fácil para testar
+        - Tornar o código mais fácil de manter
+        - Tornar o código mais fácil de estender
+        - Programe para interface e não para uma implementação
