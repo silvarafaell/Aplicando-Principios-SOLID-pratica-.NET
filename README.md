@@ -216,3 +216,17 @@
         - Tornar o código mais fácil de manter
         - Tornar o código mais fácil de estender
         - Programe para interface e não para uma implementação
+      - Classes Abstratas versus Interfaces
+        - Classes Abstratas
+          - Criadas e identificadas pelo o modificador abstract
+          - Podem conter métodos comuns e métodos/propriedades abstratos(modificador abstract)
+          - Não podem ser instanciadas
+          - Podem ser herdados; quem herda tem que implementar os métodos/propriedades abstratos
+          - Podem ter um construtor;
+        - Interfaces
+          - Criadas e identificadas pelo o modificador interface
+          - Estabelecem um contrato com quem for implementar a interface
+          - Podem conter somente métodos/propriedades que não tenham implementação
+          - Podem ser instanciadas
+          - Podem ser herdadas, quem herda tem que implementar o contrato definido
+          - Não possuem um construtor
