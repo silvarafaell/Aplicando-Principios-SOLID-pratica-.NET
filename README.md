@@ -230,3 +230,14 @@
           - Podem ser instanciadas
           - Podem ser herdadas, quem herda tem que implementar o contrato definido
           - Não possuem um construtor
+     - Polimorfismo
+       - Polimorfismo significa várias formas
+       - Ocorre quando há um relacionamento de Herança entre as classes(É um)
+       - O polimorfismo se manifesta, permitindo que classes forneçam diferentes implementações de métodos que são chamados com o mesmo nome.
+       - Polimorfismo é o principio pelo qual duas ou mais classes derivadas de uma mesma superclasse podem invocar que tem a mesma assinatura mas comportamentos distintos,          que são especializados para cada classe derivada, usando para tanto um referencia a um objeto do tipo superclasse.
+       - Polimorfismo em tempo de execução(Overrinding/Sobreescrita)
+         - Usa herança e métodos virtuais
+         - Sobrescreve métodos virtuais alterando comportamento da classe derivada
+       - Polimorfismo em tempo de compilação(Overloading/Sobrecarga)
+         - Utiliza a sobrecarga de métodos e operadores
+         - Realiza a tarefa com distintos parâmetros de entrada
