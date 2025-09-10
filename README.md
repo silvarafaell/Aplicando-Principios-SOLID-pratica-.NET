@@ -241,3 +241,7 @@
        - Polimorfismo em tempo de compilação(Overloading/Sobrecarga)
          - Utiliza a sobrecarga de métodos e operadores
          - Realiza a tarefa com distintos parâmetros de entrada
+      - C# 8 - Default members interface
+        - Permite adicionar membros as interfaces e fornecer uma implementação padrão para esses membros.
+        - Adicionar um novo método padrão a uma interface existente sem quebrar o código das classes que implementam a interface
+        - É opcional para os implementadores substituir ou não o método. 
