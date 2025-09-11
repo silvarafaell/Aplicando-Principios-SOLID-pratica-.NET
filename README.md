@@ -244,4 +244,24 @@
       - C# 8 - Default members interface
         - Permite adicionar membros as interfaces e fornecer uma implementação padrão para esses membros.
         - Adicionar um novo método padrão a uma interface existente sem quebrar o código das classes que implementam a interface
-        - É opcional para os implementadores substituir ou não o método. 
+        - É opcional para os implementadores substituir ou não o método.
+
+### Principios SOLID - Conceitos e prática
+ - Code Smell
+   - Code Smell
+     - O termo Code Smell(código que cheira) é aplicado quando o código fonte de qualquer programa indica algum problema
+     - O code smell indica que o projeto de software não foi bem feito e que vai apresentar uma alta taxa de manutenção com riscos de apresentar bugs catastróficos no futuro.
+   - Rigidez
+     - Um código rígido é aquele que quando alterado vai exigir mudanças em outras partes do código e essas mudanças quando feitas vão se propagar por todo o  código.
+   - Fragilidade
+     -  Um código frágil é aquele que quando alterado quebra o código de maneiras inesperadas, em áreas que não parecem estar relacionadas a que voce esta        trabalhando.
+     -  Voce faz um alteração em um modulo e outro modulo deixa de funcionar
+   - Imobilidade
+     - Um código imóvel não permite ser reutilizado em outras partes do projeto ou mesmo em outros projetos.
+   - Redundante
+     - É um código que se repete ao longo do projeto aparecendo em mais de um lugar causando dificuldade e na correção de falhas
+   - **Confuso**
+     - **É um código extenso e difícil de ser entendido por quem lê o código.**
+     - Se voce não compreende o código como vai poder altera-lo se precisar ?
+     - **Se você precisa de comentários no código para entender o que ele faz então o seu código é opaco e cheira mal**
+     
