@@ -250,11 +250,11 @@
  - Code Smell
    - Code Smell
      - O termo Code Smell(código que cheira) é aplicado quando o código fonte de qualquer programa indica algum problema
-     - O code smell indica que o projeto de software não foi bem feito e que vai apresentar uma alta taxa de manutenção com riscos de apresentar bugs catastróficos no futuro.
+     - O code smell indica que o projeto de software não foi bem feito e que vai apresentar uma alta taxa de manutenção com riscos de apresentar bugs catastróficos no              futuro.
    - Rigidez
      - Um código rígido é aquele que quando alterado vai exigir mudanças em outras partes do código e essas mudanças quando feitas vão se propagar por todo o  código.
    - Fragilidade
-     -  Um código frágil é aquele que quando alterado quebra o código de maneiras inesperadas, em áreas que não parecem estar relacionadas a que voce esta        trabalhando.
+     -  Um código frágil é aquele que quando alterado quebra o código de maneiras inesperadas, em áreas que não parecem estar relacionadas a que voce esta                           trabalhando.
      -  Voce faz um alteração em um modulo e outro modulo deixa de funcionar
    - Imobilidade
      - Um código imóvel não permite ser reutilizado em outras partes do projeto ou mesmo em outros projetos.
@@ -264,4 +264,17 @@
      - **É um código extenso e difícil de ser entendido por quem lê o código.**
      - Se voce não compreende o código como vai poder altera-lo se precisar ?
      - **Se você precisa de comentários no código para entender o que ele faz então o seu código é opaco e cheira mal**
+- Clean Code
+  - Clean Code é uma filosofia de desenvolvimento cujo principal objetivo é aplicar técnicas simples que visam facilitar a escrita e leitura de um código.
+  - "Aprender a criar códigos limpos é uma tarefa árdua e requer mais do que simples conhecimento dos principais padrões. Você tem que suar a camisa;praticar sozinho e ver      que cometeu erros;"
+  - O Clean Code nos da uma serie de boas praticas que podemos aplicar no nosso código para torna-lo limpo e objetivo.
+  - Aplicando boas praticas: Clean Code
+    - Nomenclatura: Adote um padrão
+    - Use Nomes significativos
+    - Organize o código
+    - use métodos pequenos
+    - Seja comedido nos comentários
+    - Documente somente o necessário
+    - Evite números mágicos
+    - Realize o tratamento de erros
      
