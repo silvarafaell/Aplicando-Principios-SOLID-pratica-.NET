@@ -277,4 +277,18 @@
     - Documente somente o necessário
     - Evite números mágicos
     - Realize o tratamento de erros
-     
+- DRY - Dont Repeat Yourself
+  - Cada parte do conhecimento deve ter uma representação unica, inequívoca e definitiva dentro de um sistema.
+  - O que podemos entender por conhecimento ?
+    - Uma funcionalidade precisa no domínio de negócios de seu aplicativo
+    - Um algoritmo
+  - O conceito de DRY não esta apenas relacionado com a ideia de 'não duplicar codigo'
+  - A ideia por trás do DRY é muito mais ampla
+  - Logica de Remessa
+    - Representada uma funcionalidade no domínio do negócio.
+    - Se voce espalhar a logica de remessa de um pedido pela aplicação quando voce tiver que alterar o seu comportamento vai ter que fazer isso em mais de um lugar.               (Violação do DRY)
+  - Forma correta:
+    - Criar uma representação unica do seu conhecimento.
+    - Colocar a logica para enviar a remessa em um só lugar e depois usar a representação desse conhecimento em qualquer lugar que voce precisar.
+  - O principio DRY tem a ver duplicação da logica do conhecimento e não simplesmente com a duplicação de código.
+  - Possuir a logica do conhecimento em um único lugar para facilitar a manutenção.
