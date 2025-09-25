@@ -292,3 +292,18 @@
     - Colocar a logica para enviar a remessa em um só lugar e depois usar a representação desse conhecimento em qualquer lugar que voce precisar.
   - O principio DRY tem a ver duplicação da logica do conhecimento e não simplesmente com a duplicação de código.
   - Possuir a logica do conhecimento em um único lugar para facilitar a manutenção.
+- Princípios SOLID - Apresentação
+  - OS princípios SOLID representam cinco princípios de boas praticas da programação orientada a objetos que ajudam a escrever códigos mais robustos, com baixo acoplamento,     fáceis de estender, testar, reutilizar e de manter.
+  - A palavra SOLID é um acrônimo, criado por Michael Feathers
+  - Esses princípios foram identificados por Robert Cecil Martin (Uncle Bob)
+  - Acrônimo: SOLID
+    - SRP: Single Responsability Principle
+      - Princípio da Responsabilidade Única: uma classe deve ter um, e somente um, motivo para mudar.
+    - OCP: Open/Closed Principle
+      - Principio do Aberto/Fechado: Você deve ser capaz de estender um comportamento de uma classe sem a necessidade de modificá-lo
+    - LSP: Liskov Substitution Principle
+      - Princípio da substituição de Liskov - As classes derivadas devem ser substituíveis por suas classes bases.
+    - ISP: Interface Segregation Principle
+      - Princípio da segregação de interfaces - Muitas interfaces específicas são melhores do que uma interface única geral.
+    - DIP: Dependency Inversion Principle
+      - Princípio da inversão de dependência - Dependa de abstrações e não de implementações.
