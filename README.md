@@ -307,3 +307,11 @@
       - Princípio da segregação de interfaces - Muitas interfaces específicas são melhores do que uma interface única geral.
     - DIP: Dependency Inversion Principle
       - Princípio da inversão de dependência - Dependa de abstrações e não de implementações.
+- Princípio SRP - Single Responsability Rinciple
+  - Cada classe deve ter apenas um motivo para mudar.
+  - Cada classe deve ter apenas uma responsabilidade a ser cumprida.
+  - Única responsabilidade
+  - Classes menores
+  - Fáceis de manter
+  - Mais fáceis de estender
+  - Fáceis de testar
