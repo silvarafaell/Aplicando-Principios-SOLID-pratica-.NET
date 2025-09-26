@@ -315,3 +315,9 @@
   - Fáceis de manter
   - Mais fáceis de estender
   - Fáceis de testar
+- Princípio OCP - Usando Métodos de Extensão
+  - Princípio Open/Close ou OCP(Aberto/Fechado)
+  - Métodos de Extensão
+    - Métodos estáticos aplicados a um Tipo que permitem adicionar uma nova funcionalidade a um tipo de dados existente sem ter que criar um novo Tipo derivado
+  - Princípio Open/Closed
+    - Você deve ser capaz de estender um comportamento de uma classe sem a necessidade de altera-lo.
