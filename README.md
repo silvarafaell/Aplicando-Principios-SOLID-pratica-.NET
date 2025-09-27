@@ -334,3 +334,19 @@
     - Precisar testar as novas funcionalidades e também as antigas.
     - Incluir novas funcionalidades dificulta a manutenção do código.
     - Violação do princípio da responsabilidade única.
+- Princípio LSP - Liskov Substitution Principle
+  - Uma classe base deve ser substituída pela sua classe derivada sem alteração no comportamento final.
+  - O princípio LSP é aplicável quando existe um relacionamento de herança onde temos uma ou mais classes derivadas herdando de uma classe base.
+  - Nesse contexto os métodos da classe base estão definindo um contrato e espera-se que cada classe derivada cumpra este contrato.
+  - Se uma classe derivada não aderir ao contrato definido na classe base esta violando o princípio LSP.
+  - Se uma classe derivada estender ou sobrescrever o comportamento da classe base implementando um novo comportamento isso esta violando o princípio LSP.
+  - Como identificar violações do princípio LSP
+    - Implementações vazias e que não fazem nada em métodos da classe derivada
+    - Lançar uma exceção inesperada diferente da classe base em um método da classe derivada.
+    - Classes derivadas que substituem(override) um método da classe base para dar a ele um comportamento completamente novo.
+    - Usar lógica condicional para identificar a classe derivada a ser usada(*)
+  - O LSP fornece uma forma de saber se a herança está sendo implementada de forma correta(ou se realmente precisamos usar herança)
+  - Dois fatores básicos podem ser considerados ao verificar a aplicação do princípio LSP:
+    -  A classe base possui comportamentos inúteis para a classe derivada ?
+    -  O comportamento externo é alterado se substituímos a instancia da classe base pela instância da classe derivada ?
+    -  Se a resposta for sim, teremos a violação do princípio LSP
