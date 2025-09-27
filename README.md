@@ -321,3 +321,16 @@
     - Métodos estáticos aplicados a um Tipo que permitem adicionar uma nova funcionalidade a um tipo de dados existente sem ter que criar um novo Tipo derivado
   - Princípio Open/Closed
     - Você deve ser capaz de estender um comportamento de uma classe sem a necessidade de altera-lo.
+- Princípio OCP - Open Closed Principle
+  - Você deve ser capaz de estender um comportamento de uma classe sem a necessidade de altera-lo.
+  - Classes deverão ser abertas para extensão mas fechadas para alteração.
+  - Estender significa incluir novas funcionalidades sem precisar 'mexer' no que está pronto, mantendo a estabilidade do código.
+  - Alterar é incluir novas funcionalidades 'mexendo' no que está pronto, o que geralmente causa impacto no código.
+  - Como implementar o princípio Aberto/Fechado ?
+    - Adicionar as novas funcionalidades criando novas classes derivadas que devem ser herdadas da classe base original.
+    - Permitir que o cliente acesse a classe original com uma interface abstrata.
+    - Criar classes derivadas e deixar a implementação da classe original inalterada.
+  - Consequências ao não seguir o princípio Aberto/Fechado ?
+    - Precisar testar as novas funcionalidades e também as antigas.
+    - Incluir novas funcionalidades dificulta a manutenção do código.
+    - Violação do princípio da responsabilidade única.
