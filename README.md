@@ -350,3 +350,12 @@
     -  A classe base possui comportamentos inúteis para a classe derivada ?
     -  O comportamento externo é alterado se substituímos a instancia da classe base pela instância da classe derivada ?
     -  Se a resposta for sim, teremos a violação do princípio LSP
+- Princípio ISP - Interface Segregation Principle
+  - Muitas interfaces especificas são melhores do que uma interface geral.
+  - Uma interface não deve forçar uma classe a implementar funcionalidades que ela não irá utilizar.
+  - Interfaces que tem muitos comportamentos se espalham pelo sistema trazendo complexidade e dificuldade de manutenção ao código.
+  - Objetivos ISP
+    - Reduzir os efeitos colaterais e a frequência das alterações necessárias, dividindo o software em várias partes independentes.
+    - Obter um baixo acoplamento
+    - Ter interfaces focadas em sua responsabilidade (SRP)
+    - Reduzir as dependências no código. 
