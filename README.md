@@ -358,4 +358,11 @@
     - Reduzir os efeitos colaterais e a frequência das alterações necessárias, dividindo o software em várias partes independentes.
     - Obter um baixo acoplamento
     - Ter interfaces focadas em sua responsabilidade (SRP)
-    - Reduzir as dependências no código. 
+    - Reduzir as dependências no código.
+- Princípio DIP - Dependency Inversion Principle
+  - Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de uma abstração.
+  - Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
+  - "Programe para uma interface e não para uma implementação."
+  - NÃO CONFUNDIR O PRINCÍPIO DA INVERSÃO DA DEPENDÊNCIA COM O PADRÃO DE PROJETO INJENÇAÕ DE DEPENDÊNCIA.
+  - O Princípio da inversão de Dependência procura manter o foco da tarefa de design no negócio, deixando este design independente ou desacoplado do componente que vai           executar as tarefas de baixo nível que não fazem parte da modelagem do negócio.
+  - Se o princípio for aplicado, as classes de alto nível não serão afetadas por nenhuma alteração nas classes de baixo nível. 
