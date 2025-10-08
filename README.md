@@ -350,3 +350,19 @@
     -  A classe base possui comportamentos inúteis para a classe derivada ?
     -  O comportamento externo é alterado se substituímos a instancia da classe base pela instância da classe derivada ?
     -  Se a resposta for sim, teremos a violação do princípio LSP
+- Princípio ISP - Interface Segregation Principle
+  - Muitas interfaces especificas são melhores do que uma interface geral.
+  - Uma interface não deve forçar uma classe a implementar funcionalidades que ela não irá utilizar.
+  - Interfaces que tem muitos comportamentos se espalham pelo sistema trazendo complexidade e dificuldade de manutenção ao código.
+  - Objetivos ISP
+    - Reduzir os efeitos colaterais e a frequência das alterações necessárias, dividindo o software em várias partes independentes.
+    - Obter um baixo acoplamento
+    - Ter interfaces focadas em sua responsabilidade (SRP)
+    - Reduzir as dependências no código.
+- Princípio DIP - Dependency Inversion Principle
+  - Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de uma abstração.
+  - Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
+  - "Programe para uma interface e não para uma implementação."
+  - NÃO CONFUNDIR O PRINCÍPIO DA INVERSÃO DA DEPENDÊNCIA COM O PADRÃO DE PROJETO INJENÇAÕ DE DEPENDÊNCIA.
+  - O Princípio da inversão de Dependência procura manter o foco da tarefa de design no negócio, deixando este design independente ou desacoplado do componente que vai           executar as tarefas de baixo nível que não fazem parte da modelagem do negócio.
+  - Se o princípio for aplicado, as classes de alto nível não serão afetadas por nenhuma alteração nas classes de baixo nível. 
